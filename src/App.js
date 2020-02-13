@@ -40,7 +40,6 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Counter</h1>
       <Counter counter={counter} />
       <button type="button" onClick={() => setCounter(counter + 1)}>
         Increment
